@@ -5,7 +5,10 @@ import Social from "../components/Social";
 
 export default function Home() {
   return (
-    <div className="w-full h-auto min-h-screen flex flex-col items-center">
+    <div
+      className="w-full h-auto min-h-screen flex flex-col items-center"
+      translate="no"
+    >
       <main className="flex flex-col w-full h-full max-w-5xl items-center justify-center">
         <div className="flex flex-col w-full h-full justify-center px-5 pb-16">
           <div className="flex flex-col items-center py-16 gap-y-2">
