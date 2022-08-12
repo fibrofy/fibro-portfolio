@@ -12,6 +12,7 @@ export default function Error() {
             objectFit="cover"
             objectPosition="center center"
             draggable="false"
+            placeholder="blur"
             alt={"404 Shark"}
             src={`/img/fun/shark.jpg`}
           />
