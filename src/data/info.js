@@ -1,6 +1,6 @@
 const info = {
   name: `fibrofy`,
-  theme: `#1e40af`,
+  themeColor: `#1e40af`,
   url: `https://fibrofy.vercel.app/`,
   bio: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
