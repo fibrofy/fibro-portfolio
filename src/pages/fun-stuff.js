@@ -10,13 +10,16 @@ export default function Fun() {
             Fun Stuff :)
           </h1>
           {fun.map((trip, key) => (
-            <div className="py-4">
+            <div className="py-4" key={key}>
               <h2 className="text-xl md:text-2xl 2xl:text-3xl font-semibold tracking-tight text-gray-900">
                 {trip.name}
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 h-full w-full py-2 items-center justify-center">
-                {trip.photos.map((e) => (
-                  <li className="py-2 relative w-full h-64 shadow-xl rounded-lg overflow-hidden hover:translate-y-[-0.125rem] transition-[5s] ease-linear">
+                {trip.photos.map((e, key) => (
+                  <li
+                    className="py-2 relative w-full h-64 shadow-xl rounded-lg overflow-hidden hover:translate-y-[-0.125rem] transition-[5s] ease-linear"
+                    key={e}
+                  >
                     <Image
                       layout="fill"
                       objectFit="cover"
