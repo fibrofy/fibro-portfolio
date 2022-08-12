@@ -15,7 +15,7 @@ export default function Fun() {
                 {trip.name}
               </h2>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6 h-full w-full py-2 items-center justify-center">
-                {trip.photos.map((e, key) => (
+                {trip.photos.map((e) => (
                   <li
                     className="py-2 relative w-full h-64 shadow-xl rounded-lg overflow-hidden hover:translate-y-[-0.125rem] transition-[5s] ease-linear"
                     key={e}
