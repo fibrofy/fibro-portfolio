@@ -13,8 +13,8 @@ export default function Publications() {
             Peer Reviewed
           </h2>
           <ul className="list-decimal list-inside">
-            {peerReviewed.map((e) => (
-              <li className="py-2">
+            {peerReviewed.map((e, key) => (
+              <li className="py-2" key={key}>
                 <h1 className="inline font-semibold">{e.name}</h1>
                 <p>{e.cite}</p>
               </li>
@@ -26,8 +26,8 @@ export default function Publications() {
             Other Publications
           </h1>
           <ul className="list-decimal list-inside">
-            {otherPubs.map((e) => (
-              <li className="py-2">
+            {otherPubs.map((e, key) => (
+              <li className="py-2" key={key}>
                 <h1 className="inline font-semibold">{e.name}</h1>
                 <p>{e.cite}</p>
               </li>
