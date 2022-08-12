@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import shark from "../../public/img/fun/shark.jpg";
 
 export default function Error() {
   return (
@@ -14,7 +15,7 @@ export default function Error() {
             draggable="false"
             placeholder="blur"
             alt={"404 Shark"}
-            src={`/img/fun/shark.jpg`}
+            src={shark}
           />
           <h1 className="absolute inset-0 left-0 top-12 text-white text-6xl md:text-7xl 2xl:text-8xl text-center font-black tracking-tight select-none">
             404 Error
